@@ -4,10 +4,7 @@
 
 feature 'EnteringNames' do
   scenario 'Submitting Names' do
-    visit ('/')
-    fill_in :name_p1, with: 'Sonny'
-    fill_in :name_p2, with: 'Raj'
-    click_button'Submit'
+    sign_in_and_play
     expect(page).to have_content 'Sonny vs Raj'
   end
 end

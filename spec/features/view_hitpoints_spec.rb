@@ -4,10 +4,7 @@
 
 feature 'Viewing Hitpoints' do
   scenario 'See P2 Hitpoints' do
-    visit ('/')
-    fill_in :name_p1, with: 'Sonny'
-    fill_in :name_p2, with: 'Raj'
-    click_button 'Submit'
+    sign_in_and_play
     expect(page).to have_content 'Raj: 60HP'
   end
 end
