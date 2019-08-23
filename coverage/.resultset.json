@@ -1,6 +1,21 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Desktop/Battle/spec/features/entering_names_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
       "/Users/student/Desktop/Battle/spec/features/testing_infrastructure_spec.rb": [
         1,
         1,
@@ -10,6 +25,6 @@
         null
       ]
     },
-    "timestamp": 1566557061
+    "timestamp": 1566557935
   }
 }
