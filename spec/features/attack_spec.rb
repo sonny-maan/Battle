@@ -8,5 +8,4 @@ feature 'Attacking' do
     click_button 'Attack'
     expect(page).to have_content 'Sonny attacked Raj'
   end
-
 end
