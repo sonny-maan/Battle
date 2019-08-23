@@ -2,7 +2,7 @@
 # So we can play a personalised game of Battle,
 # We want to Start a fight by entering our names and seeing them
 
-feature 'Entering Names' do
+feature 'EnteringNames' do
   scenario 'Submitting Names' do
     visit ('/')
     fill_in :name_p1, with: 'Sonny'
